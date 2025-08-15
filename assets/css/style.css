@@ -6,4 +6,28 @@
 #origin
 {
     display: flex;
+    height: 100vh;
+}
+#main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 5;
+    
+}
+#main .card
+{
+    text-align: center;
+    padding:2pt;
+    width: 70%;
+}
+#main img
+{
+    width: 200px;
+}
+#side
+{
+    flex: 1;
+    border-right: 1px solid black;
 }
