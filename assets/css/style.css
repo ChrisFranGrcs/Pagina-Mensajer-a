@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 5;
+    flex: 4;
     
 }
 #main .card
@@ -29,5 +29,43 @@
 #side
 {
     flex: 1;
-    border-right: 1px solid black;
+    border-right: 1px solid #BEC1BB;
+    overflow: scroll;
+}
+header
+{
+    display: flex;
+    border-bottom: 1px solid #BEC1BB;
+}
+header img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+nav
+{
+    display: flex;
+}
+#side .chatCard
+{
+    text-align: center;
+    margin: 50px;
+}
+#side button
+{
+    background-color: blueviolet;
+    border: none;
+    width: 80%;
+    padding: 10px;
+}
+#side .card
+{
+    border-top: 1px solid #BEC1BB;
+}
+#side .card img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
 }
