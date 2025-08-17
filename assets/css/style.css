@@ -83,6 +83,14 @@ i
     font-family: "Roboto", sans-serif;
     font-size: 16px;
 }
+#side button:hover
+{
+    background-color: #CDC3E6;
+}
+#side button:focus
+{
+    background-color: #BEC1BB;
+}
 #side .card
 {
     flex: 2;
