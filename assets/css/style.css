@@ -19,9 +19,12 @@
 }
 #main .card
 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding:2pt;
-    width: 70%;
+    width: 60%;
 }
 #main img
 {
@@ -69,7 +72,8 @@ i
 #side .chatCard
 {
     flex: 3;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 50px;
 }
 #side button
